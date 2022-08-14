@@ -80,6 +80,7 @@ const listNotes = () => {
 }
 
 
+
 const readNotes =(title) => {
     const notes = loadNotes()
     const noteA = notes.find((note)=> note.title === title)
