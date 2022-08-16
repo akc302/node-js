@@ -25,6 +25,7 @@ const addNote = (title,body) =>{
     const duplicateNote = notes.find((note) => 
         note.title === title)
     
+    debugger  //to open this run (chrome://inspect)
 
     if (!duplicateNote){
         notes.push({
